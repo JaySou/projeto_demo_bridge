@@ -6,6 +6,7 @@ export class OrderStatusModel {
   id?: string;
   name: string;
   value: string;
+  data: string;
 }
 
 export class CommerceItem {
@@ -28,11 +29,11 @@ export class CommerceItem {
 
 export class OrderModel {
   id?: string;
-  address: AddressModel;
+  address: AddressModel[];
   payment: PaymentModel;
   commerceItem: Array<CommerceItem>;
   dateOrder: string;
-  status: OrderStatusModel;
+  status: OrderStatusModel[];
   subTotal: number;
   discount: number;
   freight: number;

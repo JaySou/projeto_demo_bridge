@@ -217,7 +217,7 @@ export default {
             region: "Alabama",
             region_code: "AL",
             region_id: 1,
-            street: ["Address"],
+            street: ["rua ab", "55", "casa 12", "centro"],
             telephone: "911",
           },
           method: "flatrate_flatrate",
